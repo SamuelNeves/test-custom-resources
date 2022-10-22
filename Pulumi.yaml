@@ -1,0 +1,3 @@
+name: test-packages
+description: One test using Pulumi Packages
+runtime: go

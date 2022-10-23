@@ -1,2 +1,5 @@
 config:
   aws:region: us-east-1
+  test-packages:costCenter: centroDeCusto123
+  test-packages:dbPassword:
+    secure: AAABAB9mnNpgq12HPAWjyNExdGue6hE6Viqqkjfu9dwT+G+vSio=

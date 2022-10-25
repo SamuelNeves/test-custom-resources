@@ -9,12 +9,12 @@ import (
 func main() {
 	pulumi.Run(func(ctx *pulumi.Context) error {
 		// Create an AWS resource (S3 Bucket)
-		resource, err := components.NewStandardS3Bucket(ctx, "test-resources")
+		_, err := components.NewStandardS3Bucket(ctx, "test-resources")
 		if err != nil {
 			return err
 		}
 
-		println(" %s", pulumi.All(re))
+		//println(" %s", pulumi.All(re))
 		// Export the name of the bucket
 		return nil
 	})
